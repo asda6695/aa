@@ -3,4 +3,3 @@
     <!ENTITY x "First Param!">
     <!ENTITY y "Second Param!">
 ]>
-<root><x>&x;</x><y>&y;</y></root>
