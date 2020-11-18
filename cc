@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE lltest[
-        <!ENTITY xxe SYSTEM "file:///x.xml">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root [
+        <!ENTITY % param1 "Hello">
+        <!ENTITY % param2 " ">
+        <!ENTITY % param3 "World">
+        <!ENTITY content "%param1;%param2;%param3;">
         ]>
-<user><username>&xxe;</username><pasdaasddsassword>123456</pasdaasddsassword></user>
+<root><foo>&content</foo></root>
